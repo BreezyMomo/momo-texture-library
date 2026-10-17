@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Momo Texture Library</title>
+  <style>
+    :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#161a20;color:#e3e9ef}
+    body{max-width:1280px;margin:auto;padding:32px 20px}h1{margin-bottom:8px}p{line-height:1.7;color:#b4c0ce}
+    a{color:#a7d7ee}input{box-sizing:border-box;width:100%;max-width:480px;padding:12px;background:#242b35;color:inherit;border:1px solid #506173;border-radius:6px}
+    #gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin-top:24px}
+    article{min-width:0;display:flex;flex-direction:column;gap:10px;padding:14px;border:1px solid #394756;border-radius:8px;background:#20262f}
+    article img{width:100%;height:140px;object-fit:contain;background:#12161b;border-radius:4px}article h2{font-size:16px;margin:0;overflow-wrap:anywhere}
+    article small{color:#a2b0c0}article a{margin-top:auto}#status{min-height:24px}
+  </style>
+</head>
+<body>
+  <h1 id="title">Momo Texture Library</h1>
+  <p>在 Momo Texture Forge 中打开“图形库 → 远程图库”，添加下面的目录地址即可订阅。</p>
+  <p><a id="catalog" href="index.json">index.json</a></p>
+  <label>搜索图形 <input id="search" type="search" placeholder="输入名称或分类"></label>
+  <p id="status" role="status">正在读取目录…</p>
+  <main id="gallery" aria-label="图形资源"></main>
+  <script>
+    const status=document.getElementById('status'),gallery=document.getElementById('gallery'),search=document.getElementById('search');
+    const catalogURL=new URL('index.json',location.href);document.getElementById('catalog').textContent=catalogURL.href;
+    function typeLabel(e){return e.kind==='image'?(e.imageMime==='image/svg+xml'?'矢量图（SVG）':'位图'):e.kind==='composition'?'组合':'公式';}
+    fetch(catalogURL,{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(catalog=>{
+      document.getElementById('title').textContent=catalog.name;
+      function render(){const q=search.value.trim().toLowerCase(),items=catalog.entries.filter(e=>(e.name+' '+(e.category??'')).toLowerCase().includes(q));gallery.replaceChildren();
+        for(const e of items){const card=document.createElement('article'),name=document.createElement('h2'),details=document.createElement('small'),download=document.createElement('a');name.textContent=e.name;details.textContent=[e.category,'v'+e.versionId,typeLabel(e)].filter(Boolean).join(' · ');download.textContent='下载资源 ZIP';download.href=new URL(e.file,catalogURL);download.download='';
+          if(e.thumbnail){const img=document.createElement('img');img.src=new URL(e.thumbnail,catalogURL);img.alt=e.name;img.loading='lazy';card.append(img);}card.append(name,details,download);gallery.append(card);
+        }status.textContent='显示 '+items.length+' / '+catalog.entries.length+' 项资源';
+      }search.addEventListener('input',render);render();
+    }).catch(e=>{status.textContent='无法读取目录：'+e.message+'。请通过 HTTP(S) 网站访问本页。';});
+  </script>
+</body>
+</html>
