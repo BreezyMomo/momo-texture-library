@@ -17,13 +17,13 @@ Momo Texture Forge 的静态远程图形库。资源目录、ZIP 和缩略图一
 部署完成后的图库首页：
 
 ```text
-https://fgh23387736.github.io/momo-texture-library/
+https://breezymomo.github.io/momo-texture-library/
 ```
 
 在 Momo Texture Forge 的“图形库 → 远程图库”中添加：
 
 ```text
-https://fgh23387736.github.io/momo-texture-library/index.json
+https://breezymomo.github.io/momo-texture-library/index.json
 ```
 
 以上地址在 Pages 成功部署后生效；首次发布后需验证目录与资源可以正常读取。
