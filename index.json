@@ -37,18 +37,6 @@
       "sha256": "f92350bd271d94d304479c53337534e4a93be2c550a554484eeb9c17672d6c27"
     },
     {
-      "imageMime": "image/svg+xml",
-      "resourceId": "055e7e82-026f-4ddb-bc21-8179a9089d85",
-      "versionId": 2,
-      "name": "云纹",
-      "kind": "image",
-      "category": "我的图形",
-      "description": "",
-      "thumbnail": "thumbnails/055e7e82-026f-4ddb-bc21-8179a9089d85-v2.png",
-      "file": "resources/055e7e82-026f-4ddb-bc21-8179a9089d85-v2.zip",
-      "sha256": "45311ab5e3508ddc25e6671601dc38edfe33f73a67806d18c95c66c3e9c2e8a6"
-    },
-    {
       "resourceId": "05ca7878-39a3-8d78-8eb8-ed872dbfb9dc",
       "versionId": 3,
       "name": "置换向量",
@@ -300,17 +288,6 @@
       "thumbnail": "thumbnails/13100f5a-44c8-8955-814e-4391f178d1bc-v3.png",
       "file": "resources/13100f5a-44c8-8955-814e-4391f178d1bc-v3.zip",
       "sha256": "64ac90de73940c63534e62f8d81a788ec2df62cb683cd32c7b1b3b0877ae67f7"
-    },
-    {
-      "resourceId": "16b3e9c0-28d6-80c9-89e6-527870a2e6b1",
-      "versionId": 4,
-      "name": "星锁阵",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/16b3e9c0-28d6-80c9-89e6-527870a2e6b1-v4.png",
-      "file": "resources/16b3e9c0-28d6-80c9-89e6-527870a2e6b1-v4.zip",
-      "sha256": "412c3bcea571371414226ce0f48879dd7c7b5087d95f3c5d406a82650604e719"
     },
     {
       "resourceId": "16f703ef-ffa6-8e11-8675-a39deac5bb32",
@@ -654,17 +631,6 @@
       "sha256": "82bfbd0b3fcc2b2c4dfd6fe25a3353c48e727c7db74d9a5d4de8794b881cfc23"
     },
     {
-      "resourceId": "2e687d2c-97a0-8c0e-86a7-e7396ebe8ee2",
-      "versionId": 4,
-      "name": "密文环带",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/2e687d2c-97a0-8c0e-86a7-e7396ebe8ee2-v4.png",
-      "file": "resources/2e687d2c-97a0-8c0e-86a7-e7396ebe8ee2-v4.zip",
-      "sha256": "a86348a3b62899881e8b9d50888c2c9d4126b7c5f49c841f78aed131840c570d"
-    },
-    {
       "resourceId": "2eb1903f-2b71-818e-86aa-a6aeafed5229",
       "versionId": 4,
       "name": "放射光芒",
@@ -916,17 +882,6 @@
       "thumbnail": "thumbnails/46983fa9-7e6b-8ebd-8bba-1a8db9451cc0-v2.png",
       "file": "resources/46983fa9-7e6b-8ebd-8bba-1a8db9451cc0-v2.zip",
       "sha256": "d533ad7fc667bd258e7f1de5891b68ab612be4b858a385417a626fe3a7f3acb2"
-    },
-    {
-      "resourceId": "4812399b-a79c-8a54-8e61-1a4cfc9b5a4f",
-      "versionId": 3,
-      "name": "法阵外框",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/4812399b-a79c-8a54-8e61-1a4cfc9b5a4f-v3.png",
-      "file": "resources/4812399b-a79c-8a54-8e61-1a4cfc9b5a4f-v3.zip",
-      "sha256": "afe3a0dfd4b8a34dd6cacdc49dab6d1ada3cc7eff0eacd975c6ca8c71be2f1bf"
     },
     {
       "resourceId": "482313f7-78eb-83e8-8408-73514578d4da",
@@ -1270,17 +1225,6 @@
       "sha256": "318a87df34b8bebf94f2a322f2677813646d50f9ed67317b79cfaeba929bd500"
     },
     {
-      "resourceId": "5e47cd09-34cc-844f-8039-d6cb2c875f98",
-      "versionId": 3,
-      "name": "四方结界",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/5e47cd09-34cc-844f-8039-d6cb2c875f98-v3.png",
-      "file": "resources/5e47cd09-34cc-844f-8039-d6cb2c875f98-v3.zip",
-      "sha256": "734ef0443ad9e6d9c0e72757c96a41cd0b7849400140664144a6bcea7597e6fb"
-    },
-    {
       "resourceId": "5eae761c-ec7d-8977-8d7a-5da4c829f704",
       "versionId": 2,
       "name": "球形渐变",
@@ -1378,17 +1322,6 @@
       "thumbnail": "thumbnails/678a4b0f-568e-8599-825e-26155e8a5d12-v3.png",
       "file": "resources/678a4b0f-568e-8599-825e-26155e8a5d12-v3.zip",
       "sha256": "08d99d6f76941933c927e2dec07b9344001c5681b90bb6aad7fa720aec15f5cc"
-    },
-    {
-      "resourceId": "687d14c9-b4f8-8b81-8651-06aaefe7513b",
-      "versionId": 3,
-      "name": "光环脉冲",
-      "kind": "formula",
-      "category": "能量",
-      "description": "",
-      "thumbnail": "thumbnails/687d14c9-b4f8-8b81-8651-06aaefe7513b-v3.png",
-      "file": "resources/687d14c9-b4f8-8b81-8651-06aaefe7513b-v3.zip",
-      "sha256": "db0d154963d49d6ea0f5e08c80fc585c7de29620910e99cbf1a3e2a742fbc1c9"
     },
     {
       "resourceId": "68c55501-ff36-872e-8ad0-af73e83f5a04",
@@ -1677,17 +1610,6 @@
       "sha256": "0b895bf294ba2e83a770f7f64b30d8625f3156b036964c1eee3f732b7ca3eb2d"
     },
     {
-      "resourceId": "774feff9-25af-89a3-82da-8dee8fff00e4",
-      "versionId": 4,
-      "name": "代码法阵",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/774feff9-25af-89a3-82da-8dee8fff00e4-v4.png",
-      "file": "resources/774feff9-25af-89a3-82da-8dee8fff00e4-v4.zip",
-      "sha256": "fd2a75cbaa7966d1adcf1fd46f3312b733c64733ba0b50c7f0df970f5c4332dc"
-    },
-    {
       "resourceId": "77eeedaf-8d7e-8cb8-8880-38ab1fa0a181",
       "versionId": 2,
       "name": "网格",
@@ -1697,18 +1619,6 @@
       "thumbnail": "thumbnails/77eeedaf-8d7e-8cb8-8880-38ab1fa0a181-v2.png",
       "file": "resources/77eeedaf-8d7e-8cb8-8880-38ab1fa0a181-v2.zip",
       "sha256": "d0a960acb508ba2b45124fcb45d2238cae1144c6da41783bdce403d6657ba453"
-    },
-    {
-      "imageMime": "image/png",
-      "resourceId": "796e31f2-ff27-411c-aaf7-1af9b7fe8478",
-      "versionId": 2,
-      "name": "葫芦",
-      "kind": "image",
-      "category": "我的图形",
-      "description": "",
-      "thumbnail": "thumbnails/796e31f2-ff27-411c-aaf7-1af9b7fe8478-v2.png",
-      "file": "resources/796e31f2-ff27-411c-aaf7-1af9b7fe8478-v2.zip",
-      "sha256": "e13a21ec2bd4518be6b79783ee5ac547ffdbcc0523708ab3921aba49ca466f0f"
     },
     {
       "resourceId": "79d0195e-624e-863d-8f37-4c362eb32bc1",
@@ -2096,17 +2006,6 @@
       "sha256": "7cf5a9a5569b108d2baadffe492089062678211fe52fbef1081178859b2e0d3d"
     },
     {
-      "resourceId": "984c7807-893d-8a89-82f0-d78244a3728c",
-      "versionId": 4,
-      "name": "召唤阵",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/984c7807-893d-8a89-82f0-d78244a3728c-v4.png",
-      "file": "resources/984c7807-893d-8a89-82f0-d78244a3728c-v4.zip",
-      "sha256": "bcfc642b2747697092abd06ca1e6d05973f66039cb4632eae4470c3ab0c6b658"
-    },
-    {
       "resourceId": "9900cf27-f261-89cf-89c8-f56073a83fd1",
       "versionId": 5,
       "name": "弧菱花砖",
@@ -2116,18 +2015,6 @@
       "thumbnail": "thumbnails/9900cf27-f261-89cf-89c8-f56073a83fd1-v5.png",
       "file": "resources/9900cf27-f261-89cf-89c8-f56073a83fd1-v5.zip",
       "sha256": "12e7df0886bb814ce7942277c376e11a5b2eb8023f63a86650086a79b094cdae"
-    },
-    {
-      "imageMime": "image/svg+xml",
-      "resourceId": "99517457-f39e-4ce0-8fc4-d6b073b3b43b",
-      "versionId": 1,
-      "name": "莲花2",
-      "kind": "image",
-      "category": "我的图形",
-      "description": "",
-      "thumbnail": "thumbnails/99517457-f39e-4ce0-8fc4-d6b073b3b43b-v1.png",
-      "file": "resources/99517457-f39e-4ce0-8fc4-d6b073b3b43b-v1.zip",
-      "sha256": "f23b822dfada795449402757a62377f82c194619fd7eaef183dd6c275bb078eb"
     },
     {
       "resourceId": "9aa210a2-eec1-8afa-898b-779e04b435ac",
@@ -2337,17 +2224,6 @@
       "thumbnail": "thumbnails/a225abea-f626-82f3-8e27-aea4d7c9411d-v5.png",
       "file": "resources/a225abea-f626-82f3-8e27-aea4d7c9411d-v5.zip",
       "sha256": "a3ddc2a7ac706b94a19b786bc8d5c93ece35f5d4bd4c3788e0f67a3c6a82b72a"
-    },
-    {
-      "resourceId": "a302c708-1672-883c-86b0-5e8e737bcfb7",
-      "versionId": 3,
-      "name": "寒冰法阵",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/a302c708-1672-883c-86b0-5e8e737bcfb7-v3.png",
-      "file": "resources/a302c708-1672-883c-86b0-5e8e737bcfb7-v3.zip",
-      "sha256": "32a59277dd48a92a04f2ddb8a7aa3c3da1ba5839bb1efbe0155494adf95d6d60"
     },
     {
       "resourceId": "a3a436b3-5553-8cd1-85b4-a236bcce546a",
@@ -2625,18 +2501,6 @@
       "sha256": "06b15a4a4475fa9bf29883d153ac625a4af2c56c0fe8f1b701346cdfc39a8bf3"
     },
     {
-      "imageMime": "image/svg+xml",
-      "resourceId": "b8626767-a4dc-4154-b990-36c50bc53c30",
-      "versionId": 3,
-      "name": "不倒翁",
-      "kind": "image",
-      "category": "我的图形",
-      "description": "",
-      "thumbnail": "thumbnails/b8626767-a4dc-4154-b990-36c50bc53c30-v3.png",
-      "file": "resources/b8626767-a4dc-4154-b990-36c50bc53c30-v3.zip",
-      "sha256": "d5878aefd21b3d7dc4082344ea7cfd7122cd0f24b817bb69637374a60d6faba6"
-    },
-    {
       "resourceId": "ba066184-af71-807d-8316-b1f4689ec323",
       "versionId": 2,
       "name": "体积光柱",
@@ -2679,18 +2543,6 @@
       "thumbnail": "thumbnails/bae7fd00-a247-8981-8cf2-99ebb56f250a-v3.png",
       "file": "resources/bae7fd00-a247-8981-8cf2-99ebb56f250a-v3.zip",
       "sha256": "892176229dffcedbd26c649589266c7c483126c397e4d8e2a12dacc974ae4463"
-    },
-    {
-      "imageMime": "image/svg+xml",
-      "resourceId": "bb3dcdf3-4218-4502-8700-342e1b85d480",
-      "versionId": 1,
-      "name": "荷叶",
-      "kind": "image",
-      "category": "我的图形",
-      "description": "",
-      "thumbnail": "thumbnails/bb3dcdf3-4218-4502-8700-342e1b85d480-v1.png",
-      "file": "resources/bb3dcdf3-4218-4502-8700-342e1b85d480-v1.zip",
-      "sha256": "cfb2c32ce5a4121e43fbe732046ef6e221534071d8208b7beaddcd47c145d2e2"
     },
     {
       "resourceId": "bbedd726-8085-8b78-85fc-00eb2cc3dda6",
@@ -3155,17 +3007,6 @@
       "sha256": "8905ee2c6b4763c0206d6cab1f50e4122e38e5934700aa093d5c258de8c65154"
     },
     {
-      "resourceId": "e0a40624-fd71-881a-86e6-87920f21109d",
-      "versionId": 4,
-      "name": "符文轮",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/e0a40624-fd71-881a-86e6-87920f21109d-v4.png",
-      "file": "resources/e0a40624-fd71-881a-86e6-87920f21109d-v4.zip",
-      "sha256": "4a1e5926f7f6e48e9ca2faee2ec63e517642e1455db10aea889d5a1f919f72f1"
-    },
-    {
       "resourceId": "e1da8e72-60d6-87e3-8043-dc2ac5e2aaa3",
       "versionId": 3,
       "name": "拼图纹理",
@@ -3373,17 +3214,6 @@
       "thumbnail": "thumbnails/f1d48708-107a-844a-80b0-597daa207605-v3.png",
       "file": "resources/f1d48708-107a-844a-80b0-597daa207605-v3.zip",
       "sha256": "241d35509577db29e69974e47f38b003776c447ffd5eef905d0c7326fbeb9aca"
-    },
-    {
-      "resourceId": "f3074535-a2c4-8fbd-843a-df93d0f307e8",
-      "versionId": 3,
-      "name": "几何封印",
-      "kind": "formula",
-      "category": "法阵",
-      "description": "",
-      "thumbnail": "thumbnails/f3074535-a2c4-8fbd-843a-df93d0f307e8-v3.png",
-      "file": "resources/f3074535-a2c4-8fbd-843a-df93d0f307e8-v3.zip",
-      "sha256": "0c5cbe8078f26eeda56fada40e8e91b77ba83bb1417d9dadd2b0e85177071147"
     },
     {
       "resourceId": "f3e27073-d9d0-8ae0-8ae2-3c83d27fed7e",
